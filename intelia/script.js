@@ -1,4 +1,3 @@
-//made by vipul mirajkar thevipulm.appspot.com
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -50,3 +49,17 @@ window.onload = function() {
         }
     }
 };
+
+$("#texas").mouseover(function(){
+    $("#texas").css("color", "green");parseInt
+  });
+  $("#texas").mouseout(function(){
+    $("#texas").css("color", "black");
+  });
+
+  Particles.init({
+    selector: '.background',
+    connectParticles: true,
+    minDistance: 40,
+    maxParticles: 150
+  }); 
